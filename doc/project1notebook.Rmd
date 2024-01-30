@@ -334,4 +334,4 @@ ggplot(data, aes(x = reorder(categories,-category_sizes), y = category_sizes)) +
 
 2. When conveying happy moments, people will express negative sentiments. These sentiments can be surprisingly strong. Many reported happy moments show that people experience happy moments when sources of unhappiness are removed.
 
-3. The most significant difference between adults and teenagers is the most frequent category which their respective happy moments fall under. Teenagers are generally focused on achievements when reporting happy moments, whereas adults have show significant consideration for affection in addition to achievement.
+3. The most significant difference between adults and teenagers is the most frequent category which their respective happy moments fall under. Teenagers are generally focused on achievements when reporting happy moments, whereas adults show significant consideration for affection in addition to achievement.
