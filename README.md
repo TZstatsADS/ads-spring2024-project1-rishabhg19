@@ -1,13 +1,13 @@
 # Applied Data Science @ Columbia
-## Fall 2023
-## Project 1: What made you happy today?
+## Spring 2024
+## Project 1: Happiness from Teen Years through Middle-Age
 
 ![image](figs/title.jpeg)
 
 ### [Project Description](doc/Proj1_desc.md)
 This is the first and only *individual* (as opposed to *team*) this semester. 
 
-Term: Fall 2023
+Term: Spring 2024
 
 + Project title: Happiness from Teen Years through Middle-Age
 + This project is conducted by [Rishabh Ganesh]
