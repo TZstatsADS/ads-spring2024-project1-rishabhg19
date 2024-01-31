@@ -5,9 +5,11 @@ output:
   html_document: default
   pdf_document: default
 ---
-![](../figs/growing_img.jpeg)
+<div style="text-align: center;">
+  <img src="../figs/growing_img.jpeg" alt="Picture of Teenager Growing" style="width: 80%;">
+</div>
 
-Teenagers seem to prefer to keep to themselves, but they have a wealth of information in their minds. They have so much going on that they rarely live in the present moment, so any happy moments reported by teenagers can be a springboard into their minds, characterizing their complex inner thoughts and feelings. Here are some of the happy moments reported by people when they were under 20 years of age. Note that they are all 18 or 19 years old, so they are among the most mature teenagers, assuming maturity is correlated with age. All the analysis in this report is based on data from processed_moments.csv, demographic.csv, and senselabel.csv.
+Teenagers seem to prefer to keep to themselves, but they have a wealth of information in their minds. They have so much going on that they rarely focus on the present moment, so any happy moments reported by teenagers can be a springboard into their minds, characterizing their complex inner thoughts and feelings. Here are some of the happy moments reported by people when they were under 20 years of age. Note that they are all 18 or 19 years old, so they are among the most mature teenagers, assuming maturity is correlated with age. All the analysis in this report is based on data from processed_moments.csv, demographic.csv, and senselabel.csv.
 
 ```{r import_and_read, include=FALSE}
 #set display settings and import dependencies
@@ -156,7 +158,7 @@ maindata <- data.frame(word = topw, freq = topf)
 maindata <- arrange(maindata, desc(freq))
 ```
 
-The words that teenagers are saying most frequently in their happy moments can add a layer of depth and context to the sentiments they express. The most frequent word by far is "friend," which makes sense because teenagers who report a happy moment are likely to recall enjoyable experiences with friends. Note, however, that the word "friend" may not be what comes to mind when thinking of the major predicted categories of teenage happy moments, like achievement and affection. Perhaps teenagers associate achievement with having many friends.
+The words that teenagers are saying most frequently in their happy moments can add a layer of depth and context to the sentiments they express. The most frequent word by far is "friend," which makes sense because teenagers who report a happy moment are likely to recall enjoyable experiences with friends. Note, however, that the word "friend" may not be what comes to mind when thinking of the major predicted categories of teenage happy moments, like achievement and affection. Perhaps teenagers associate achievement with having many friends. Teenagers also attend events and use words like "game" and "played," which means they experience some happiness from engaging with others.
 ```{r freq_teen}
 #visualize frequent words for teens
 ggplot(maindata, aes(x = reorder(word,-freq), y = freq)) +
